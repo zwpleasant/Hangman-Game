@@ -19,8 +19,6 @@ document.onkeyup = function(event) {
 	// use the split method on randomChoice to make it an array of letters
 	var randomChoiceSplit = randomChoice.split("")
 
-	var remainingLetters = hiddenChoice.length;
-
 	console.log(randomChoiceSplit);
 
 	// update DOM
