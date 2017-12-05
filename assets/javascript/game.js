@@ -1,5 +1,5 @@
 // function that starts when user types a key
-document.onkeyup = function(event) {
+// document.onkeyup = function(event) {
 
 	// create an array with list of answers
 	var answers = ["Argentina", "Bolivia", "Brazil", "Chile", "Colombia", "Ecuador", "Guyana", "Paraguay", "Peru", "Suriname", "Uruguay", "Venezuela"];
@@ -23,4 +23,16 @@ document.onkeyup = function(event) {
 
 	// update DOM
 	document.getElementById("gameChoice").innerHTML = hiddenChoice.join(" ");
+// }
+
+userGuess = document.onkeyup = function(userGuess) {
+	console.log(userGuess);
 }
+
+// for (var j = 0; j < randomChoiceSplit.length; j++) {
+//     if (randomChoiceSplit[j] === userGuess) {
+//         console.log("win");
+//     } else {
+//         console.log("lose");
+//     }
+// }
